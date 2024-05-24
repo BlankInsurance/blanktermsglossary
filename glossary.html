@@ -1,0 +1,245 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Glossary</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            .button-container {
+                text-align: center;
+                margin: 20px;
+            }
+            .button {
+                padding: 10px 15px;
+                margin: 5px;
+                border: none;
+                background-color: #4CAF50;
+                color: white;
+                cursor: pointer;
+                font-size: 16px;
+            }
+            .button:hover {
+                background-color: #45a049;
+            }
+            .glossary-section {
+                display: none;
+                margin: 20px;
+            }
+            .glossary-section.visible {
+                display: block;
+            }
+            .term {
+                font-weight: bold;
+            }
+            .definition {
+                margin-left: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="button-container">
+<button class="button" onclick="showSection('all')">All Terms</button>
+<button class="button" onclick="showSection('A')">A</button>
+<button class="button" onclick="showSection('B')">B</button>
+<button class="button" onclick="showSection('D')">D</button>
+<button class="button" onclick="showSection('E')">E</button>
+<button class="button" onclick="showSection('F')">F</button>
+<button class="button" onclick="showSection('G')">G</button>
+<button class="button" onclick="showSection('I')">I</button>
+<button class="button" onclick="showSection('L')">L</button>
+<button class="button" onclick="showSection('M')">M</button>
+<button class="button" onclick="showSection('N')">N</button>
+<button class="button" onclick="showSection('P')">P</button>
+<button class="button" onclick="showSection('Q')">Q</button>
+<button class="button" onclick="showSection('R')">R</button>
+<button class="button" onclick="showSection('S')">S</button>
+<button class="button" onclick="showSection('V')">V</button>
+<button class="button" onclick="showSection('W')">W</button>
+</div>
+
+        <div id="glossary-container">
+<div class="glossary-section" id="section-all">
+<div class="term">Accumulation Phase</div>
+<div class="definition">The period during which you pay premiums or invest money into an annuity.</div>
+<div class="term">Accumulation Value</div>
+<div class="definition">The total amount of money in an annuity during the accumulation phase.</div>
+<div class="term">Annuitant</div>
+<div class="definition">The person whose life expectancy is used to determine the timing and amount of annuity payments.</div>
+<div class="term">Annuitization</div>
+<div class="definition">The process of converting an annuity investment into a series of periodic income payments.</div>
+<div class="term">Annuitization Options</div>
+<div class="definition">Various methods by which annuity payments can be structured, such as life income, life with period certain, joint life, etc.</div>
+<div class="term">Annuity</div>
+<div class="definition">A financial product that provides a series of payments made at equal intervals, used primarily as a means of securing a steady cash flow during retirement.</div>
+<div class="term">Bailout Provision</div>
+<div class="definition">A feature in some annuities that allows the policyholder to withdraw funds without penalty if the interest rate credited drops below a specified level.</div>
+<div class="term">Beneficiary</div>
+<div class="definition">The person or entity designated to receive any remaining payments or death benefit upon the annuitant’s death.</div>
+<div class="term">Deferred Annuity</div>
+<div class="definition">An annuity in which payments begin at a future date.</div>
+<div class="term">Distribution Phase</div>
+<div class="definition">The period during which the annuity makes periodic payments to the annuitant.</div>
+<div class="term">Equity-Indexed Annuity</div>
+<div class="definition">An annuity that earns interest based on changes in a stock market index, which can provide higher returns with some level of risk protection.</div>
+<div class="term">Fixed Annuity</div>
+<div class="definition">An annuity that pays a guaranteed rate of interest.</div>
+<div class="term">Fixed Indexed Annuity</div>
+<div class="definition">An annuity that credits interest based on the performance of a specified stock market index.</div>
+<div class="term">Free-Look Period</div>
+<div class="definition">A time period during which a new annuity policyholder can cancel the policy without penalties.</div>
+<div class="term">Guaranteed Lifetime Withdrawal Benefit (GLWB)</div>
+<div class="definition">An annuity feature that guarantees the annuitant can withdraw a certain amount each year for life, even if the account balance drops to zero.</div>
+<div class="term">Immediate Annuity</div>
+<div class="definition">An annuity that starts payments almost immediately after a lump-sum premium is paid.</div>
+<div class="term">Income Rider</div>
+<div class="definition">An optional feature that can be added to an annuity to provide a guaranteed stream of income.</div>
+<div class="term">Longevity Annuity</div>
+<div class="definition">An annuity that starts payments at a later age, typically after 80, to provide income for the remaining years of life.</div>
+<div class="term">Market Value Adjustment (MVA)</div>
+<div class="definition">A feature in some annuities that adjusts the surrender value based on changes in interest rates.</div>
+<div class="term">Mortality and Expense Risk Charge</div>
+<div class="definition">A fee that covers the insurance company's risks in providing the annuity, including the risk that the annuitant will live longer than expected.</div>
+<div class="term">Non-Qualified Annuity</div>
+<div class="definition">An annuity funded with after-tax dollars that is not part of a qualified retirement plan.</div>
+<div class="term">Period Certain</div>
+<div class="definition">An option in an annuity that guarantees payments for a specific number of years, even if the annuitant dies.</div>
+<div class="term">Periodic Payments</div>
+<div class="definition">Payments made regularly (monthly, quarterly, annually) from an annuity.</div>
+<div class="term">Qualified Longevity Annuity Contract (QLAC)</div>
+<div class="definition">A deferred income annuity purchased within a retirement account that begins payments at an advanced age and meets certain IRS requirements.</div>
+<div class="term">Rider</div>
+<div class="definition">An add-on to a standard insurance policy that provides additional benefits or coverage.</div>
+<div class="term">Single Premium Immediate Annuity (SPIA)</div>
+<div class="definition">An annuity purchased with a single premium that starts making payments almost immediately.</div>
+<div class="term">Surrender Charge</div>
+<div class="definition">A fee you may have to pay if you withdraw money from an annuity before a certain period.</div>
+<div class="term">Surrender Charge Period</div>
+<div class="definition">The time during which a withdrawal from an annuity will incur a surrender charge.</div>
+<div class="term">Surrender Value</div>
+<div class="definition">The amount available in cash upon cancellation of an annuity before it starts paying benefits.</div>
+<div class="term">Variable Annuity</div>
+<div class="definition">An annuity that allows you to invest in various sub-accounts, which are similar to mutual funds. The value of the annuity can go up or down based on the performance of the investments.</div>
+<div class="term">Vesting</div>
+<div class="definition">The process by which a policyholder earns the right to receive benefits from a retirement plan or an annuity.</div>
+<div class="term">Waiver of Premium Rider</div>
+<div class="definition">A feature that allows the policyholder to stop paying premiums if they become seriously ill or disabled.</div>
+</div>
+<div class="glossary-section" id="section-A">
+<div class="term">Accumulation Phase</div>
+<div class="definition">The period during which you pay premiums or invest money into an annuity.</div>
+<div class="term">Accumulation Value</div>
+<div class="definition">The total amount of money in an annuity during the accumulation phase.</div>
+<div class="term">Annuitant</div>
+<div class="definition">The person whose life expectancy is used to determine the timing and amount of annuity payments.</div>
+<div class="term">Annuitization</div>
+<div class="definition">The process of converting an annuity investment into a series of periodic income payments.</div>
+<div class="term">Annuitization Options</div>
+<div class="definition">Various methods by which annuity payments can be structured, such as life income, life with period certain, joint life, etc.</div>
+<div class="term">Annuity</div>
+<div class="definition">A financial product that provides a series of payments made at equal intervals, used primarily as a means of securing a steady cash flow during retirement.</div>
+</div>
+<div class="glossary-section" id="section-B">
+<div class="term">Bailout Provision</div>
+<div class="definition">A feature in some annuities that allows the policyholder to withdraw funds without penalty if the interest rate credited drops below a specified level.</div>
+<div class="term">Beneficiary</div>
+<div class="definition">The person or entity designated to receive any remaining payments or death benefit upon the annuitant’s death.</div>
+</div>
+<div class="glossary-section" id="section-D">
+<div class="term">Deferred Annuity</div>
+<div class="definition">An annuity in which payments begin at a future date.</div>
+<div class="term">Distribution Phase</div>
+<div class="definition">The period during which the annuity makes periodic payments to the annuitant.</div>
+</div>
+<div class="glossary-section" id="section-E">
+<div class="term">Equity-Indexed Annuity</div>
+<div class="definition">An annuity that earns interest based on changes in a stock market index, which can provide higher returns with some level of risk protection.</div>
+</div>
+<div class="glossary-section" id="section-F">
+<div class="term">Fixed Annuity</div>
+<div class="definition">An annuity that pays a guaranteed rate of interest.</div>
+<div class="term">Fixed Indexed Annuity</div>
+<div class="definition">An annuity that credits interest based on the performance of a specified stock market index.</div>
+<div class="term">Free-Look Period</div>
+<div class="definition">A time period during which a new annuity policyholder can cancel the policy without penalties.</div>
+</div>
+<div class="glossary-section" id="section-G">
+<div class="term">Guaranteed Lifetime Withdrawal Benefit (GLWB)</div>
+<div class="definition">An annuity feature that guarantees the annuitant can withdraw a certain amount each year for life, even if the account balance drops to zero.</div>
+</div>
+<div class="glossary-section" id="section-I">
+<div class="term">Immediate Annuity</div>
+<div class="definition">An annuity that starts payments almost immediately after a lump-sum premium is paid.</div>
+<div class="term">Income Rider</div>
+<div class="definition">An optional feature that can be added to an annuity to provide a guaranteed stream of income.</div>
+</div>
+<div class="glossary-section" id="section-L">
+<div class="term">Longevity Annuity</div>
+<div class="definition">An annuity that starts payments at a later age, typically after 80, to provide income for the remaining years of life.</div>
+</div>
+<div class="glossary-section" id="section-M">
+<div class="term">Market Value Adjustment (MVA)</div>
+<div class="definition">A feature in some annuities that adjusts the surrender value based on changes in interest rates.</div>
+<div class="term">Mortality and Expense Risk Charge</div>
+<div class="definition">A fee that covers the insurance company's risks in providing the annuity, including the risk that the annuitant will live longer than expected.</div>
+</div>
+<div class="glossary-section" id="section-N">
+<div class="term">Non-Qualified Annuity</div>
+<div class="definition">An annuity funded with after-tax dollars that is not part of a qualified retirement plan.</div>
+</div>
+<div class="glossary-section" id="section-P">
+<div class="term">Period Certain</div>
+<div class="definition">An option in an annuity that guarantees payments for a specific number of years, even if the annuitant dies.</div>
+<div class="term">Periodic Payments</div>
+<div class="definition">Payments made regularly (monthly, quarterly, annually) from an annuity.</div>
+</div>
+<div class="glossary-section" id="section-Q">
+<div class="term">Qualified Longevity Annuity Contract (QLAC)</div>
+<div class="definition">A deferred income annuity purchased within a retirement account that begins payments at an advanced age and meets certain IRS requirements.</div>
+</div>
+<div class="glossary-section" id="section-R">
+<div class="term">Rider</div>
+<div class="definition">An add-on to a standard insurance policy that provides additional benefits or coverage.</div>
+</div>
+<div class="glossary-section" id="section-S">
+<div class="term">Single Premium Immediate Annuity (SPIA)</div>
+<div class="definition">An annuity purchased with a single premium that starts making payments almost immediately.</div>
+<div class="term">Surrender Charge</div>
+<div class="definition">A fee you may have to pay if you withdraw money from an annuity before a certain period.</div>
+<div class="term">Surrender Charge Period</div>
+<div class="definition">The time during which a withdrawal from an annuity will incur a surrender charge.</div>
+<div class="term">Surrender Value</div>
+<div class="definition">The amount available in cash upon cancellation of an annuity before it starts paying benefits.</div>
+</div>
+<div class="glossary-section" id="section-V">
+<div class="term">Variable Annuity</div>
+<div class="definition">An annuity that allows you to invest in various sub-accounts, which are similar to mutual funds. The value of the annuity can go up or down based on the performance of the investments.</div>
+<div class="term">Vesting</div>
+<div class="definition">The process by which a policyholder earns the right to receive benefits from a retirement plan or an annuity.</div>
+</div>
+<div class="glossary-section" id="section-W">
+<div class="term">Waiver of Premium Rider</div>
+<div class="definition">A feature that allows the policyholder to stop paying premiums if they become seriously ill or disabled.</div>
+</div>
+</div>
+
+        <script>
+            function showSection(letter) {
+                const sections = document.querySelectorAll('.glossary-section');
+                sections.forEach(section => section.classList.remove('visible'));
+                
+                if (letter === 'all') {
+                    document.getElementById('section-all').classList.add('visible');
+                } else {
+                    document.getElementById('section-' + letter).classList.add('visible');
+                }
+            }
+            // Show all terms by default
+            showSection('all');
+        </script>
+    </body>
+    </html>
+    
